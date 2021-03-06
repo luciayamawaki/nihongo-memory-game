@@ -2,4 +2,4 @@
 
 > A simple vocabulary (kanji and hiragana) matching game written in javascript.
 
-(https://i.imgur.com/s10HVFL.gif)
+<img src="https://i.imgur.com/s10HVFL.gif">
