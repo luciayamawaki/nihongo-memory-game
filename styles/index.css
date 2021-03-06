@@ -1,0 +1,149 @@
+body, html {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size:16px;
+}
+  
+.game-container{
+    flex-grow: 1;
+    width: auto;
+    height: 100vh;
+}
+
+body>div{
+    display: flex;
+  }
+
+.game-description{
+    margin-top:20px;
+    border: 10px;
+    height:50px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+
+.game-status{
+    padding:25px;
+}
+
+.game-status :first-child{
+    text-align: center;
+    align-items: center;
+
+    cursor: pointer; 
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 10px;
+    padding: 5px 5px 5px 5px;
+    transition:box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.game-status :first-child:hover{
+    box-shadow: 0 0 0 0, inset 4px 4px 4px 0px;
+    transform:translate(6px,6px)
+}
+
+.game-panel{
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    border: 10px;
+    height:650px;
+    width:800px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 10px;
+}
+
+.none{
+    display:none;
+}
+
+.cards{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 3px 3px 3px 3px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    text-justify:inter-ideograph;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+    transform: scale(1);
+}
+
+.cards:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+    backface-visibility: hidden;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+/* japanese */
+.cards pre:nth-child(1){
+    font-size:30px; 
+}
+
+/* english */
+.cards pre:nth-child(2){
+    font-size: 15px;
+}
+
+.flip{
+    background-color:white;
+    backface-visibility: hidden;
+
+}
+
+.cards-lower{
+    background-color:black;
+    backface-visibility: hidden;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.matched {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+    opacity: .2;
+}
+
+.blocked {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    backface-visibility: hidden;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.congratulations{
+ text-align: center;
+ height:100%;
+ width:100%;   
+}

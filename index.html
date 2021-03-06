@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Japanese Memory Game JLPT N5 </title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">   
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section  class="game-container">
+            <div class="border game-status" id="startButton">
+                <span class="start">スタート</span>
+            </div>
+
+            <div class="border game-panel" id="gamePanel">
+            </div>
+
+            <div class="border game-description blocked none" id="gameDescriptionPanel">
+                <div>
+                  <ruby>当<rb><rt>あたった</ruby>たった<ruby>回数<rb><rt>かいすう</ruby>: <span id="scored">0</span><br>
+                  <ruby>間違<rb><rt>まちが</ruby>えた<ruby>回数<rb><rt>かいすう</ruby>: <span id="mistaken">0</span>
+                </div>
+            </div>
+    </section >
+
+  </body>
+  <footer>
+    <!-- <script type="text/javascript" src="nihongo.json"></script> -->
+    <script type="text/javascript" src="js/nihongo.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </footer>
+
+</html>
