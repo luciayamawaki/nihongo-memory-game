@@ -125,8 +125,8 @@ function congratulationsDiv(){
     if you have any question, feel free to <a href="https://github.com/luciayamawaki" target="_blank">send me a message</a></p>
     <br>
     <h1><ruby><rb>最後<rt>さいご</ruby>まで<ruby><rb>遊<rt>あそ</ruby>んでいただき、ありがとうございます。</h1>
-    <p>上のリセットボタンを<ruby><rb>押<rt>お</ruby>していただけば、もう一回<ruby><rb>遊<rt>あそ</ruby>べることが<ruby><rb>可能<rt>かのう</ruby>です！</p>
-    <p><ruby><rb>質問<rt>しつもん</ruby>や<ruby><rb>要望<rt>ようぼう</ruby>など<ruby><rb>受<rt>うけ</ruby>け付けておりますのでお<ruby><rb>気軽<rt>きらく</ruby>にご<ruby><rb>連絡<rt>れんらく</ruby>ください。</p>
+    <p>上のリセットボタンを<ruby><rb>押<rt>お</ruby>していただけば、もう一回<ruby><rb>遊<rt>あそ</ruby>べます。</p>
+    <p><ruby><rb>質問<rt>しつもん</ruby>や<ruby><rb>要望<rt>ようぼう</ruby>など<ruby><rb>受<rt>うけ</ruby>け付けておりますのでお<ruby><rb>気軽<rt>きがる</ruby>にご<ruby><rb>連絡<rt>れんらく</ruby>ください。</p>
     </div>
   `;
 }
